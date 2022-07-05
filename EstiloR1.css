@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Comic Sans, Comic Sans MS, cursive;
+        
+}
+
+.Cuerpo{
+    display: flex;
+    justify-content: flex-start;
+}
+.Encabezado{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: grey;
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 2%;
+}
+.titulo{
+    margin-left: 2%;
+}
+#Entrar{
+    background-color: mediumblue;
+    color: white;
+    margin-right: 5%;
+    width: 10%;
+    box-shadow: 3%;
+}
+#buscador{
+    border:solid 2px black;
+    width: 45%;
+}
+.cuadro1{
+    display: flex;
+    border:  solid 2px black;
+    margin-left: 36%;
+    margin-bottom: 5%;
+    width: 100%;
+}
+.izquierda1{
+    margin: 2% 2% 2% 4%;
+    width: 50%;
+    text-align: center
+    ;
+}
+.likes{
+    background-color: rgba(216, 145, 14, 0.788);
+    color: black;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    width: 100%;
+    box-shadow: 3%;
+}
+.derecha1{
+    margin: 10% 10% 0 10%;
+}
+
+.cuadro2{
+    border:  solid 2px black;
+    text-align:start; 
+    margin-left: 100%;
+    width: 70%;
+    height: 40%;
+}
+#Definition{
+    margin: 10% 0 10% 5%;
+    width: 90%;
+    background-color: rgb(24, 180, 24);
+    color: black;
+    border: 2px solid black;
+    
+}
+#titulo1{
+    margin: 10% 0 5% 5%;
+
+}

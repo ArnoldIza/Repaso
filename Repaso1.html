@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="EstiloR1.css" />
+    <title>Prueba</title>
+</head>
+<body>
+  <div class="Encabezado"> 
+    <h1 class="titulo">Dojonary</h1>
+    <input type="text" placeholder="Search" id="buscador"/>
+    <input type="button" value="Login" id="Entrar" onclick="changeState(this)"/> 
+ </div>  
+  <div class="Cuerpo">
+    <div class="CuerpoIzquierda">
+        <div class="cuadro1">
+            <div class="izquierda1">
+                <h1>ninja</h1>
+                <p>noun</p>
+                <p>Plural: ninjas</p>
+                <button class="likes">13 likes</button>
+            </div>
+            <div class="derecha1">
+                <p> A practtitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+            </div>
+        </div>
+        <div class="cuadro1">
+            <div class="izquierda1">
+                <h1>ninja</h1>
+                <p>noun</p>
+                <p>Plural: ninjas</p>
+                <button class="likes">37 likes</button>
+            </div>
+            <div class="derecha1">
+                <p> A <a href="#">programmer </a>who breaks down problems with <a href="#">zen</a>-like focus </p>
+            </div>
+        </div>
+    </div>
+    <div class="CuerpoDerecha">
+        <div class="cuadro2">
+            <h2 id="titulo1">Dojonary is defined by YOU</h2>
+            <button value="Add" id="Definition" onclick="remover(this)">Add Definition</button> 
+        </div>
+  </div>
+  <script type="text/javascript">
+    function remover(element){
+        element.remove();
+    }
+</script>
+   <script type="text/javascript">
+            function changeState(element){
+                if(element.value=="Login"){
+                    element.value = "Logout";
+                    }
+                else{
+                    element.value = "Login";
+                    }
+            }
+        </script>
+
+</body>
+</html>
